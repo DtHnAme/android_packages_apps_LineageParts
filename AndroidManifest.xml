@@ -108,7 +108,7 @@
             android:icon="@drawable/ic_settings_buttons"
             android:targetActivity="PartsActivity">
             <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
+                <!--action android:name="com.android.settings.action.IA_SETTINGS" /-->
                 <action android:name="org.lineageos.lineageparts.BUTTON_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
